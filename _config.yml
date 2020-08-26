@@ -1,9 +1,10 @@
 # dubelyoo.com
 
 title: dubelyoo
-description: Welcome to my site of a technology mishmash (and other hobbies) notes/articles for reference. It's really just for me.
-show_downloads: false
+description: A tech (and other hobbies) mishmash of notes/articles. It's really just for me.
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed

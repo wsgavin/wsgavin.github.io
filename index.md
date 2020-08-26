@@ -1,12 +1,19 @@
 ---
 layout: default
-title: hello
+title: dubelyoo
 ---
 
 ## Nothing much here
 
-```shell
-$ tail -f /dev/null
-
+```bash
+> tail -f /dev/null
 
 ```
+
+{% for post in site.posts %}
+
+## [{{ post.title }}]({{ post.url }})
+
+{{ post.excerpt }}
+
+{% endfor %}
